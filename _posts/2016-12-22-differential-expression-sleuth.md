@@ -30,13 +30,13 @@ Imagine that we have 3 samples for each of 2 conditions (untreated and treated):
 
 At some point we load the Kallisto-processed data and make a regression model using 'condition' as the dependent variable:
 
-```
+```R
 so <- sleuth_prep(tab_metadata, ~ condition)
 ```
 
 And then we apply the WT:
 
-```
+```r
 so <- sleuth_wt(so, paste0('condition'))
 ```
 
