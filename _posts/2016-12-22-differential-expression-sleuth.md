@@ -3,8 +3,6 @@ layout: page
 title: Differential expression analysis (DEA) with Sleuth!
 ---
 
-## 05. Differential expression analysis (DEA) with Sleuth
-
 I use [Kallisto](https://pachterlab.github.io/kallisto/about.html)'s transcript abundances to perform DEA using [Sleuth](http://pachterlab.github.io/sleuth/).
 
 In the typical Sleuth's workflow, the likelihood ratio test (LRT) is applied. Briefly, the LRT models the likelihood of the data given 2 models:
