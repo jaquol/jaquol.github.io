@@ -17,6 +17,7 @@ When applying the WT, in order to get beta, **understanding how Sleuth reads the
 
 Imagine that we have 3 samples for each of 2 conditions (untreated and treated):
 
+```
 | sample_id | condition  | path  |
 |-----------|------------|-------|
 | sample01  | untreated  | path1 |
@@ -25,6 +26,7 @@ Imagine that we have 3 samples for each of 2 conditions (untreated and treated):
 | sample04  | treated    | path4 |
 | sample05  | treated    | path5 |
 | sample06  | treated    | path6 |
+```
 
 At some point we load the Kallisto-processed data and make a regression model using 'condition' as the dependent variable:
 
