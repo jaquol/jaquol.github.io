@@ -27,13 +27,17 @@ Imagine that we have 3 samples for each of 2 conditions (untreated and treated):
 | sample06  | treated  | path6  |
 
 At some point we load the Kallisto-processed data and make a regression model using 'condition' as the dependent variable:
+
 ```
 so <- sleuth_prep(tab_metadata, ~ condition)
 ```
+
 And then we apply the WT:
+
 ```
 so <- sleuth_wt(so, paste0('condition'))
 ```
+
 Internally, with `sleuth_prep` Sleuth will transform elements in the condition field to 0s and 1s **in alphabetical order** and then WT's beta values will be relative to the 0 condition; that is, positive beta values showing transcripts in which expression is greater in condition 1 than in condition 0. But this would result in counter-intuitive results in our experiment because beta values would be relative to the '**T**reated' samples. So the trick is making that the *reference* condition ranks first alphabetically speaking. Below is my solution to avoid having to play excessively with the condition names.
 
 **The code** 
