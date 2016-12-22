@@ -44,7 +44,7 @@ Internally, with `sleuth_prep` Sleuth will transform elements in the condition f
 
 **The code** 
 
-```
+```r
 diff_exp_sleuth <- function(condition1, condition2) {
 
 	# re-format metadata to meet sleuth's required format
