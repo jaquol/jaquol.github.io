@@ -18,7 +18,7 @@ avatar: https://media.licdn.com/media/AAEAAQAAAAAAAAjAAAAAJGI2ZGE4MGIwLTZjMTgtND
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: javier dot quilez at crg dot es
+  email: javier.quilez@crg.eu
   facebook:
   flickr:
   github: jaquol
@@ -41,7 +41,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://jaquol.github.io/about/
+url: https://jaquol.github.io/
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
