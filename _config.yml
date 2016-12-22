@@ -6,7 +6,7 @@
 name: Javier Quilez
 
 # Short bio or description (displayed in the header)
-description: Bioinformatician @CRGenomica. Genomics. Interested in data science. Like stats of daily life & freakonomics
+description: Data science applied to genomics et al.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://media.licdn.com/media/AAEAAQAAAAAAAAjAAAAAJGI2ZGE4MGIwLTZjMTgtNDRmMy05NTUwLTg4MWY4MTMxZjEyZg.jpg
@@ -18,7 +18,7 @@ avatar: https://media.licdn.com/media/AAEAAQAAAAAAAAjAAAAAJGI2ZGE4MGIwLTZjMTgtND
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: javier dot quilez at crg dot es
   facebook:
   flickr:
   github: jaquol
