@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Bioinformatician at the [CRG](http://www.crg.eu/) in the [group of Miguel Beato](http://www.crg.eu/en/miguel_beato) and in the [4DGenome](http://www.crg.eu/en/content/research/4dgenome-erc-synergy-project) project. I work with genomics data but interested in data science in general. This site is meant to be a ragbag of code explained, best practices, howtos, etc. mostly related to bioinformatics. .
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+*TO BE DONE*
 
 ### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+- [Email](javier.quilez@crg.eu) 
+- [Twitter](https://twitter.com/jaquol)
+- [LinkedIn](https://es.linkedin.com/in/jquilez)
