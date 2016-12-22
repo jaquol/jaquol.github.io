@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Differential expression analysis (DEA) with Sleuth!
+title: Differential expression analysis (DEA) with Sleuth
 ---
 
 I use [Kallisto](https://pachterlab.github.io/kallisto/about.html)'s transcript abundances to perform DEA using [Sleuth](http://pachterlab.github.io/sleuth/).
