@@ -28,15 +28,6 @@ Imagine that we have 3 samples for each of 2 conditions (untreated and treated):
 | sample06  | treated    | path6 |
 ```
 
-| sample_id | condition  | path  |
-|-----------|------------|-------|
-| sample01  | untreated  | path1 |
-| sample02  | untreated  | path2 |
-| sample03  | untreated  | path3 |
-| sample04  | treated    | path4 |
-| sample05  | treated    | path5 |
-| sample06  | treated    | path6 |
-
 At some point we load the Kallisto-processed data and make a regression model using 'condition' as the dependent variable:
 
 ```R
