@@ -84,3 +84,7 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+# Blog theme
+theme: jekyll-theme-tactile
+theme: jekyll-theme-tactile
