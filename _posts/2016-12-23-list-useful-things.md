@@ -1,13 +1,17 @@
 ---
 layout: post
 title: Never-ending list of things that made my work much easier
-published: false
+published: true
 ---
 
-[Last update: 2017-01-01]
+[Last update: 2016-12-23]
 
 This is meant to be a frequently updated and never-ending list of tools/sites that have made my work analysing data much easier.
 
+
+**2. Jupyter notebook extensions**
+
+[Jupyter notebook extensions](https://github.com/ipython-contrib/jupyter_contrib_nbextensions) add very useful functionalities to your Jupyter notebooks. Installation is very straightforward and so it is turning them on/off.
 
 **1. HTML-converted Ipython notebooks without code**
 
