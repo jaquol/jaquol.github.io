@@ -8,6 +8,7 @@ published: true
 
 This is meant to be a frequently updated and never-ending list of tools/sites that have made my work analysing data much easier.
 
+<br>
 
 **2. Jupyter notebook extensions**
 
