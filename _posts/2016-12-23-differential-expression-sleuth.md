@@ -6,6 +6,7 @@ title: Differential expression analysis (DEA) with Sleuth
 I use [Kallisto](https://pachterlab.github.io/kallisto/about.html)'s transcript abundances to perform DEA using [Sleuth](http://pachterlab.github.io/sleuth/).
 
 In the typical Sleuth's workflow, the likelihood ratio test (LRT) is applied. Briefly, the LRT models the likelihood of the data given 2 models:
+
 - *full*: transcript abundance affected on one or more dependent variables (here just being treated or not)
 - *reduced*: transcript abundance unaffected by the treatment (null hypothesis)
 
