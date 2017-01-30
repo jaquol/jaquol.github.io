@@ -19,13 +19,7 @@ This is meant to be a frequently updated and never-ending list of tools/sites th
 
 **#3. GitHub flavored markdown**
 
-When embedding code in a [Markdonw](http://daringfireball.net/projects/markdown/) cell of an [Ipython notebooks](https://ipython.org/notebook.html) with the default syntax:
-```
-triple `
-code
-triple `
-```
-It looked like pretty much as plain text; the only difference with the non-code text being the font type. This gets muchbetter when using the [GitHub flavored markdown](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Working%20With%20Markdown%20Cells.html), which highlights your code as done in [GitHub](https://github.com/) or as in many programming-oriented text editors.
+When embedding code in a [Markdonw](http://daringfireball.net/projects/markdown/) cell of an [Ipython notebooks](https://ipython.org/notebook.html) with the [default syntax](https://en.support.wordpress.com/markdown-quick-reference/), it looked like pretty much as plain text; the only difference with the non-code text being the font type. This gets muchbetter when using the [GitHub flavored markdown](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Working%20With%20Markdown%20Cells.html), which highlights your code as done in [GitHub](https://github.com/) or as in many programming-oriented text editors.
 
 <br><br>
 
