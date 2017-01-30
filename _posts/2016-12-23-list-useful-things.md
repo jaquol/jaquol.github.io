@@ -14,6 +14,9 @@ This is meant to be a frequently updated and never-ending list of tools/sites th
 
 [Slack](https://slack.com/) may resemble just as Gmail chat, Skype and/or Dropbox, but it is just more. Try it!
 
+<br><br>
+
+
 **#3. GitHub flavored markdown**
 
 When embedding code in a [Markdonw](http://daringfireball.net/projects/markdown/) cell of an [Ipython notebooks](https://ipython.org/notebook.html) with the default syntax:
@@ -23,6 +26,9 @@ code
 triple `
 ```
 It looked like pretty much as plain text; the only difference with the non-code text being the font type. This gets muchbetter when using the [GitHub flavored markdown](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Working%20With%20Markdown%20Cells.html), which highlights your code as done in [GitHub](https://github.com/) or as in many programming-oriented text editors.
+
+<br><br>
+
 
 **#2. Jupyter notebook extensions**
 
