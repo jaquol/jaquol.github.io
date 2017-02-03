@@ -8,8 +8,7 @@ The [CRG cluster](http://www.linux.crg.es/index.php/Main_Page) I use at work rec
 
 <br><br>
 
-# (Seemengly) undocumented changes in `dataset`
-
+# (Seemengly) undocumented changes in `dataset`
 
 I use Python's package [`dateset`](https://dataset.readthedocs.io/en/latest/) to manipulate a SQL database. Yet the package works well, is fairly well documented and easy to use, I noticed the `find()` function stopped behaving as it used to be in my code: 
 
@@ -59,7 +58,7 @@ export PATH=/software/mb/el7.2/anaconda2/bin:$PATH
 New paths are added to the left of `$PATH` so these will gain priority over the pre-existing paths in `$PATH`. Also, every path added to `$PATH` has higher priority so, as it is now, binaries installed by anaconda2 will be those used. 
 <br><br>
 
-# Launching Java applications
+# Launching Java applications
 
 [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic) is a Java application. In short, I used to execute it with:
 
