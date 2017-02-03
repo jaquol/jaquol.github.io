@@ -55,4 +55,11 @@ New paths are added to the left of `$PATH` so these will gain priority over the 
 
 # Launching Java applications
 
-http://www.usadellab.org/cms/?page=trimmomatic
+[Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic) is a Java application. In short, I used to execute it with:
+```
+trimmomatic-0.36.jar ...
+```
+But this stopped working and had to call instead:
+```
+java -jar trimmomatic-0.36.jar
+```
