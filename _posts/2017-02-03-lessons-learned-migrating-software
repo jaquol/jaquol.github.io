@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Lessons learned from migrating software
-published: false
+published: true
 ---
 
 The [CRG cluster](http://www.linux.crg.es/index.php/Main_Page) I use at work recently migrated from version 6.3 of [Scientific Linux](https://www.scientificlinux.org/) to version 7.2. Painful as it was re-installing most of the programs I used daily, the good side is that I learned some things in the process.
