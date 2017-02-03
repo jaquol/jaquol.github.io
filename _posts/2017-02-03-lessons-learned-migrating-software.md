@@ -12,7 +12,7 @@ The [CRG cluster](http://www.linux.crg.es/index.php/Main_Page) I use at work rec
 
 I use Python's package [`dateset`](https://dataset.readthedocs.io/en/latest/) to manipulate a SQL database. Yet the package works well, is fairly well documented and easy to use, I noticed the `find()` function stopped behaving as it used to be in my code: 
 
-```
+```python
 # 'sample_id' passes as a script parameter
 sample_id = sys.argv[3]
 # load 'input_metadata' table from the pre-connected 'db' database
