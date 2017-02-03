@@ -11,6 +11,7 @@ The [CRG cluster](http://www.linux.crg.es/index.php/Main_Page) I use at work rec
 # (Seemengly) undocumented changes in `dataset`
 
 I use Python's package [`dateset`](https://dataset.readthedocs.io/en/latest/) to manipulate a SQL database. Yet the package works well, is fairly well documented and easy to use, I noticed the `find()` function stopped behaving as it used to be in my code: 
+
 ```
 # 'sample_id' passes as a script parameter
 sample_id = sys.argv[3]
