@@ -26,8 +26,10 @@ if row == 0:
 elif row > 1:
 	print "multiple_samples"
 ```
+
 With the new version of `dataset` the `find` funtion was not returning the number of matches, which affected the downstream code (not shown here). The hack that fixed this is this:
-```
+
+```python
 sample_id = sys.argv[3]
 input_metadata = db.load_table('input_metadata')
 # I avoid using the `find` function and just iterate over the list of SAMPLE_IDs to cound how many of them
@@ -43,7 +45,8 @@ elif n_matches > 1:
 # Walking `$PATH`
 
 The [`.bashrc` file](http://unix.stackexchange.com/questions/129143/what-is-the-purpose-of-bashrc-and-how-does-it-work) is used to *"put commands here to set up the shell for use in your particular environment, or to customize things to your preferences"*. For instance, it is very convenient to initialize/define paths whose content should be executable from anywhere. [`$PATH`](https://www.tutorialspoint.com/unix/unix-environment.htm) is a Unix environment variable containing colon-separated paths in which binaries are looked for (e.g. when you execute `samtools` from anywhere). Binaries are looked for sequentally, that is, when you type `samtools` Unix will look for the corresponding binary in the `$PATH` variable from left to right and use the first found. For instance, in my `.bashrc`:
-```
+
+```bash
 # utils in my HOME
 export PATH=/users/GR/mb/jquilez/utils:$PATH
 # executables
@@ -51,16 +54,20 @@ export PATH=/software/mb/bin:$PATH
 # anaconda
 export PATH=/software/mb/el7.2/anaconda2/bin:$PATH
 ```
+
 New paths are added to the left of `$PATH` so these will gain priority over the pre-existing paths in `$PATH`. Also, every path added to `$PATH` has higher priority so, as it is now, binaries installed by anaconda2 will be those used. 
 <br><br>
 
 # Launching Java applications
 
 [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic) is a Java application. In short, I used to execute it with:
-```
+
+```bash
 trimmomatic-0.36.jar ...
 ```
+
 But this stopped working and had to call instead:
-```
+
+```bash
 java -jar trimmomatic-0.36.jar
 ```
