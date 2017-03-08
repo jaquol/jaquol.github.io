@@ -53,5 +53,7 @@ bedtools intersect -wao -a data/a.bed -b data/a_reldist.bed |grep -C 1 -P '\.\t'
 
 The cartoon below illustrates what is happening:
 
+![_config.yml]({{ site.baseurl }}/images/cartoon.jpg)
+
 Using A1 as an example, the relative distance metric is calculated as the minimum distance between A1 and the closest B feature (i) upstream and (ii) downstream, that is, B2 and B3, respectively, divided by the distance between B2 and B3. It seems clear now that such a metric cannot be calculated by definition for features A2, A3 and A4 as there are not more B features downstream. Nonetheless, the fraction of features in `a.bed` with missing relative distance values is very small anyway (14/788 or <2%).
 
