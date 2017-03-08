@@ -6,7 +6,7 @@ published: true
 
 I very often use BEDTools [`reldist`](http://bedtools.readthedocs.io/en/latest/content/tools/reldist.html) to measure the co-occurrance of two lists of genomic features relative to the random expectation.
 
-For instance, given the 2 BED files in the `data` folder (`a.bed` and `b.bed`):
+For instance, given the 2 BED files (`a.bed` and `b.bed`) in the `data` folder of this [GitHub repo](https://github.com/jaquol/understanding_bedtools_reldist):
 ```
 bedtools reldist -a data/a.bed -b data/b.bed
 ```
