@@ -4,11 +4,26 @@ title: List of things that made my work much easier
 published: true
 ---
 
-[Last update: 2017-01-30]
+[Last update: 2017-07-05]
 
 This is meant to be a frequently updated and never-ending list of tools/sites that have made my work analysing data much easier.
 
 <br><br>
+
+**#5. Mount remote filesystems**
+
+All the data I work with is stored in a remote computing cluster and I perform much of the initial analysis there (especially that requiring a lot of computing memory and time). However, I do much of the downstream analysis with [Jupyter notebooks](http://jupyter.org/) running on my local machine, as Jupyter notebooks cannot be launched from my computing cluster. Therefore, accessing to the data on the cluster from my local machine is key, and I (Mac OS) do it with [SSHFS](https://github.com/osxfuse/osxfuse/wiki/SSHFS) as follows:
+
+```bash
+# 1. Create directory in your filesystem (target) that will map to the remote filesystem (source)
+mkdir /target/directory
+
+# 2. mount remote directory 
+sshfs cluster_user@cluster_address:/source/directory /target/directory
+```
+
+<br><br>
+
 
 **#4. Slack**
 
@@ -29,6 +44,9 @@ When embedding code in a [Markdonw](http://daringfireball.net/projects/markdown/
 [Jupyter notebook extensions](https://github.com/ipython-contrib/jupyter_contrib_nbextensions) add very useful functionalities to your Jupyter notebooks. Installation is very straightforward and so it is turning them on/off.
 
 ![_config.yml]({{ site.baseurl }}/images/jupyter_extensions.jpg)
+
+<br><br>
+
 
 **#1. HTML-converted Ipython notebooks without code**
 
