@@ -86,4 +86,4 @@ exclude:
   - CNAME
 
 # Blog theme
-theme: jekyll-theme-tactile
+theme: jekyll-theme-exemplar
