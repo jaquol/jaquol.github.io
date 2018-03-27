@@ -65,7 +65,7 @@ The original plot iconizes very well key pitfalls we too often see in our data-r
 
 - Allocate little space to the actual data and add multiple distracting decorations
 - Do not make what data are displayed self-explanatory
-- Use axes that make the plot look nice --who cares about accuracy
+- Use axes that _just_ make the plot look nice --who cares about accuracy
 
 As a final remark, the image below shows the original plot (left) and my version without the pitfalls above mentioned.
 
