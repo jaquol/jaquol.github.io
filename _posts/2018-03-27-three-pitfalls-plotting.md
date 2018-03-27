@@ -63,11 +63,13 @@ The scales of both the horizontal and vertical axes are tremendously wrong and t
 
 The original plot iconizes very well key pitfalls we too often see in our data-rich world. So, whenever you make to ruin a plot:
 
-- Allocate little space to the plot with the actual data and add multiple distracting decorations
+- Allocate little space to the actual data and add multiple distracting decorations
 - Do not make what data are displayed self-explanatory
 - Use axes that make the plot look nice --who cares about accuracyy
 
 As a final remark, the image below shows the original plot (left) and my version without the pitfalls above mentioned.
+
+<br>
 
 ![_config.yml]({{ site.baseurl }}/images/before_and_after.png)
 
