@@ -8,7 +8,7 @@ Some weeks ago my mother proudly sent me this screenshot from [Samsung Health](h
 
 <br>
 
-![_config.yml]({{ site.baseurl }}/images/original_plot_translated.jpg)
+![_config.yml]({{ site.baseurl }}/images/original_plot_translated.png)
 
 <br>
 
